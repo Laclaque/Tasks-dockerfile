@@ -11,5 +11,5 @@ RUN echo "repo = Repo.clone_from(url=\"https://github.com/Laclaque/Tasks-code\",
 RUN chmod 777 clone_git.py
 RUN python3 clone_git.py
 
-ENTRYPOINT ["/usr/bin/python3", "/app/cloned_repo/n-dames.py"]
-CMD ["n", "id"]
+ENTRYPOINT ["/usr/bin/python3", "/app/cloned_repo/nnn-dames.py"]
+CMD ["n", "id", "0", "0"]
